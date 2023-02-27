@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gamamgtutghugtugt"
+    app:startDestination="@id/pofoorforfofr111Fragment">
+
+    <fragment
+        android:id="@+id/pofoorforfofr111Fragment"
+        android:name="com.socialquantum.west.Pofoorforfofr111Fragment"
+        android:label="fragment_pofoorforfofr111"
+        tools:layout="@layout/fragment_pofoorforfofr111" >
+        <action
+            android:id="@+id/action_pofoorforfofr111Fragment_to_pofrfrokroforf2Fragment"
+            app:destination="@id/pofrfrokroforf2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pofrfrokroforf2Fragment"
+        android:name="com.socialquantum.west.Pofrfrokroforf2Fragment"
+        android:label="fragment_pofrfrokroforf2"
+        tools:layout="@layout/fragment_pofrfrokroforf2" >
+        <action
+            android:id="@+id/action_pofrfrokroforf2Fragment_to_pofoorforfofr111Fragment"
+            app:destination="@id/pofoorforfofr111Fragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/pofoorforfofr111Fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

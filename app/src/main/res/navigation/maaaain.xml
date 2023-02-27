@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maaaain"
+    app:startDestination="@id/oneeeeFragment">
+
+    <fragment
+        android:id="@+id/oneeeeFragment"
+        android:name="com.socialquantum.west.OneeeeFragment"
+        android:label="fragment_oneeee"
+        tools:layout="@layout/fragment_oneeee" >
+        <action
+            android:id="@+id/action_oneeeeFragment_to_tvovovovovovFragment"
+            app:destination="@id/tvovovovovovFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tvovovovovovFragment"
+        android:name="com.socialquantum.west.TvovovovovovFragment"
+        android:label="fragment_tvovovovovov"
+        tools:layout="@layout/fragment_tvovovovovov" >
+        <action
+            android:id="@+id/action_tvovovovovovFragment_to_threeeeuuuuFragment"
+            app:destination="@id/threeeeuuuuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/threeeeuuuuFragment"
+        android:name="com.socialquantum.west.ThreeeeuuuuFragment"
+        android:label="fragment_threeeeuuuu"
+        tools:layout="@layout/fragment_threeeeuuuu" >
+        <action
+            android:id="@+id/action_threeeeuuuuFragment_to_foururururuFragment"
+            app:destination="@id/foururururuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/foururururuFragment"
+        android:name="com.socialquantum.west.FoururururuFragment"
+        android:label="fragment_foururururu"
+        tools:layout="@layout/fragment_foururururu" >
+        <action
+            android:id="@+id/action_foururururuFragment_to_fiviviviieieieeFragment"
+            app:destination="@id/fiviviviieieieeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fiviviviieieieeFragment"
+        android:name="com.socialquantum.west.FiviviviieieieeFragment"
+        android:label="fragment_fiviviviieieiee"
+        tools:layout="@layout/fragment_fiviviviieieiee" />
+</navigation>
